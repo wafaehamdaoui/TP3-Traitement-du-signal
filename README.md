@@ -55,7 +55,6 @@ Q4: On récupére ce morceau dans une variable nommée « Fragment », , puis on
 
 ```Matlab
  fragment=y(7*Fs:8*Fs);
- %sound(fragment,Fs);
  figure(2)
  plot(fragment)
 ```
